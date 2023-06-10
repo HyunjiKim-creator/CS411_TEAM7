@@ -1,5 +1,6 @@
 # CS411_TEAM7
-<Project Idea Proposal> 
+
+CS411 Team Assignment 1 - Proposal
 
 # Project Idea 1: Travel Planner with Weather Integration (o)
 
