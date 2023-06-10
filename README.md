@@ -1,7 +1,7 @@
 # CS411_TEAM7
 <Project Idea Proposal> 
 
-# Project Idea 1: Travel Planner with Weather Integration
+# Project Idea 1: Travel Planner with Weather Integration (o)
 
 Description:
 The project idea is to create a Travel Planner application, integrating user profiles with OpenWeatherMap and Sygic Travel APIs.
