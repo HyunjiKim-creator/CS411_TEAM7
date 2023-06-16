@@ -22,3 +22,8 @@ such as Fitbit or Strava, we could correlate environmental conditions with user'
 This could result in real-time personalized advice such as optimal times for outdoor exercise based on weather conditions, pollen count for those with allergies,
 and pollution levels. User authentication would be provided through a third-party service such as Google or Facebook,
 and the back-end would be responsible for data correlation, storage, and retrieval, communicating with the front-end via a RESTful API.
+
+
+
+https://github.com/HyunjiKim-creator/CS411_TEAM7/assets/91108091/4a3b73b7-ebce-4ae2-a6f4-905c17ca2831
+
