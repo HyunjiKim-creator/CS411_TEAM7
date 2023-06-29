@@ -1,6 +1,8 @@
 # CS411_TEAM7
 
-Welcome to Team 7's Group Project for CS411
+**Welcome to CS411 Team 7's Group Project**
+
+**Kindly refer to our timeline for the project, which can be found at: [https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Timeline.md](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Timeline.md).**
 
 # Team Progress
 
@@ -36,7 +38,7 @@ and the back-end would be responsible for data correlation, storage, and retriev
 
 # Team Assignment 2 - User Stories
 
-Our User Storeis can be found on => https://github.com/HyunjiKim-creator/CS411_TEAM7/tree/main/Assignments/User%20Stories
+Our User Storeis can be found at [https://github.com/HyunjiKim-creator/CS411_TEAM7/tree/main/Assignments/User%20Stories](https://github.com/HyunjiKim-creator/CS411_TEAM7/tree/main/Assignments/User%20Stories.)
 
 # Team Assignment 3 - API Prototype
 
