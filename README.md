@@ -49,3 +49,5 @@ Demo Video ⬇️
 
 https://github.com/HyunjiKim-creator/CS411_TEAM7/assets/91108091/4a3b73b7-ebce-4ae2-a6f4-905c17ca2831
 
+# Team Assignment 4 - Finish Application & Document
+
