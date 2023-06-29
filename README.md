@@ -4,7 +4,12 @@ Team 7's Group Project for CS411
 
 # Team Progress
 
-
+| Assignment    |     Status    |  Description    | 
+| ------------- |:-------------:| :-------------: | 
+| 1             |  ✅           |   Proposal  | 
+| 2             |  ✅           |    User Stories  | 
+| 3             |  ✅           | API Prototype   | 
+| 4             |  ✅          |  Finish Application & Document  | 
 
 # Team Assignment 1 - Proposal
 
@@ -29,8 +34,11 @@ This could result in real-time personalized advice such as optimal times for out
 and pollution levels. User authentication would be provided through a third-party service such as Google or Facebook,
 and the back-end would be responsible for data correlation, storage, and retrieval, communicating with the front-end via a RESTful API.
 
+# Team Assignment 2 - User Stories
 
-# Team Assignment 2 - API Prototype
+Located on the repositories
+
+# Team Assignment 3 - API Prototype
 
 https://github.com/HyunjiKim-creator/CS411_TEAM7/assets/91108091/4a3b73b7-ebce-4ae2-a6f4-905c17ca2831
 
