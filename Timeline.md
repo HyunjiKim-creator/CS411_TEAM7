@@ -23,7 +23,7 @@
 
 ## Assigment 3 _ API Prototype
 
-### * Application Objective
+* ### Application Objective
 The primary objective of this application is to provide a personalized, convenient, and efficient tral planning experience. By integrating Google’s OAuth 2.0(not implemented yet) for user authentication, the application ensures security and simplicity for the user during login. Also, by fetching relevant weather and location data based on the user’s input(location, date, preferences) the application offers personalized information. This data is saved to user info, and displayed. This simplifies travel planning by centralizing essential information, enhancing the overall experience. 
 
 ### * Back - end Framework
