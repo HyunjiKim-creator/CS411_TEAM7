@@ -1,6 +1,6 @@
 # CS411_TEAM7
 
-Team 7's Group Project for CS411
+Welcome to Team 7's Group Project for CS411
 
 # Team Progress
 
