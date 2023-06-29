@@ -58,4 +58,4 @@ Ajax (Asynchronous JavaScript and XML): We used Ajax for fetching data from the 
 
 **Geocoding** converts addresses like a street address into geographic coordinates.
 
-### Assignment 4 _ Finish Application & Document
+## Assignment 4 _ Finish Application & Document
