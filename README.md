@@ -11,14 +11,14 @@
 
 | Assignment    |     Status    |  Description    | 
 | ------------- |:-------------:| :-------------: | 
-| 1             |  ✓           |   Proposal  | 
-| 2             |  ✓           |    User Stories  | 
-| 3             |  ✓           | API Prototype   | 
-| 4             |  ✓          |  Finish Application & Document  | 
+| 1             |  ☑️           |   Proposal  | 
+| 2             |  ☑️           |    User Stories  | 
+| 3             |  ☑️           | API Prototype   | 
+| 4             |  ☑️          |  Finish Application & Document  | 
 
 # Team Assignment 1 - Proposal
 
-**Project Idea 1: Travel Planner with Weather Integration (o)**
+**Project Idea 1: Travel Planner with Weather Integration (☑️)**
 
 *Description:
 The project idea is to create a Travel Planner application, integrating user profiles with OpenWeatherMap and Sygic Travel APIs.
