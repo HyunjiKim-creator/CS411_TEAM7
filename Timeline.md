@@ -23,10 +23,10 @@
 
 ## Assigment 3 _ API Prototype
 
-### Application Objective
+### * Application Objective
 The primary objective of this application is to provide a personalized, convenient, and efficient tral planning experience. By integrating Google’s OAuth 2.0(not implemented yet) for user authentication, the application ensures security and simplicity for the user during login. Also, by fetching relevant weather and location data based on the user’s input(location, date, preferences) the application offers personalized information. This data is saved to user info, and displayed. This simplifies travel planning by centralizing essential information, enhancing the overall experience. 
 
-### Back - end Framework
+### * Back - end Framework
 
 **Flask**
 We chose Flash because it has excellent documentation, which makes it easier to understand the concepts and the features. Also it provides a simple and intuitive API that allows us to quickly get started with building web applications.
@@ -34,24 +34,24 @@ We chose Flash because it has excellent documentation, which makes it easier to 
 **Postman**
 We chose Postman because it allows developers to testing and develop the APIs efficiently. It provides a user friendly interface for making HTTP requests and responses. It also features a collaboration system, which enables teams to share codes and work on API project together.
 
-### Front - end Framework
+### * Front - end Framework
 
 **HTML**
 We can add various, convenient UI features with html. We can make our application look better and make it more accessible for our users.
   
-### Data Format
+### * Data Format
 
 **JSON**
 We chose JSON because it’s a good choice for moving data back and forth between the front end and the back end. JSON creates a class of programmers that could move fluidly across the entire stack. Since we are using HTML, when an HTML form POSTs a JSON string, and the database uses JSON natively, there are no transformations needed.
 
-### Dynamic Interaction and Data Fetching
+### * Dynamic Interaction and Data Fetching
   
 **JavaScript**
 We used JavaScript to interact with the webpage elements, handle button click events, and fetch data from the OpenWeatherMap API.
 jQuery: We used jQuery library to simplify HTML documental traversal, event handling, and Ajax interactions.
 Ajax (Asynchronous JavaScript and XML): We used Ajax for fetching data from the OpenWeatherMap API without refreshing the page.
 
-### APIs
+### * APIs
 **1) OpenWeatherMap API** which provides weather data, including current weather data, and forecasts to the developers of web services.
 
 **2) Google Map** which integrates a vast database of points of interest (POIs) like restaurants, hotels, and attractions. This enables the app to offer users nearby POIs based on their location.
