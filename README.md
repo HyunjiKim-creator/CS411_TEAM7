@@ -1,6 +1,8 @@
 # CS411_TEAM7
 
-CS411 Team Assignment 1 - Proposal
+Team 7's Group Project for CS411
+
+1) CS411 Team Assignment 1 - Proposal
 
 # Project Idea 1: Travel Planner with Weather Integration (o)
 
@@ -14,7 +16,7 @@ By storing user preferences and travel plans in the database, the application ca
 creating a robust and user-tailored travel planning experience.
 
 
-# Project Idea 2: A Health and Environment Monitoring App
+# Project Idea 2: A Health and Environment Monitoring App (x)
 
 Description: 
 The app would make use of the user's location and health data to provide recommendations for maintaining a healthy lifestyle.The app leverages third-party authentication mechanisms such as Twitter or Facebook OAuth for secure user logins.By utilizing two APIs, one from a weather data provider such as the National Oceanic and Atmospheric Administration (NOAA) and another from a health and fitness data provider,
