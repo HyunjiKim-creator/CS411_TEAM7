@@ -2,9 +2,13 @@
 
 Team 7's Group Project for CS411
 
-1) CS411 Team Assignment 1 - Proposal
+# Team Progress
 
-# Project Idea 1: Travel Planner with Weather Integration (o)
+
+
+# Team Assignment 1 - Proposal
+
+Project Idea 1: Travel Planner with Weather Integration (o)
 
 Description:
 The project idea is to create a Travel Planner application, integrating user profiles with OpenWeatherMap and Sygic Travel APIs.
@@ -16,7 +20,7 @@ By storing user preferences and travel plans in the database, the application ca
 creating a robust and user-tailored travel planning experience.
 
 
-# Project Idea 2: A Health and Environment Monitoring App (x)
+Project Idea 2: A Health and Environment Monitoring App (x)
 
 Description: 
 The app would make use of the user's location and health data to provide recommendations for maintaining a healthy lifestyle.The app leverages third-party authentication mechanisms such as Twitter or Facebook OAuth for secure user logins.By utilizing two APIs, one from a weather data provider such as the National Oceanic and Atmospheric Administration (NOAA) and another from a health and fitness data provider,
@@ -26,6 +30,7 @@ and pollution levels. User authentication would be provided through a third-part
 and the back-end would be responsible for data correlation, storage, and retrieval, communicating with the front-end via a RESTful API.
 
 
+# Team Assignment 2 - API Prototype
 
 https://github.com/HyunjiKim-creator/CS411_TEAM7/assets/91108091/4a3b73b7-ebce-4ae2-a6f4-905c17ca2831
 
