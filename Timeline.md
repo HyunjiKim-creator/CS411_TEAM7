@@ -52,10 +52,10 @@ jQuery: We used jQuery library to simplify HTML documental traversal, event hand
 Ajax (Asynchronous JavaScript and XML): We used Ajax for fetching data from the OpenWeatherMap API without refreshing the page.
 
 ### APIs
-**OpenWeatherMap API** which provides weather data, including current weather data, and forecasts to the developers of web services.
+**1) OpenWeatherMap API** which provides weather data, including current weather data, and forecasts to the developers of web services.
 
-**Google Map** which integrates a vast database of points of interest (POIs) like restaurants, hotels, and attractions. This enables the app to offer users nearby POIs based on their location.
+**2) Google Map** which integrates a vast database of points of interest (POIs) like restaurants, hotels, and attractions. This enables the app to offer users nearby POIs based on their location.
 
-**Geocoding** converts addresses like a street address into geographic coordinates.
+**3) Geocoding** which converts addresses like a street address into geographic coordinates.
 
 ## Assignment 4 _ Finish Application & Document
