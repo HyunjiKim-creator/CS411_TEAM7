@@ -6,10 +6,10 @@ Team 7's Group Project for CS411
 
 | Assignment    |     Status    |  Description    | 
 | ------------- |:-------------:| :-------------: | 
-| 1             |  ✅           |   Proposal  | 
-| 2             |  ✅           |    User Stories  | 
-| 3             |  ✅           | API Prototype   | 
-| 4             |  ✅          |  Finish Application & Document  | 
+| 1             |  ✓           |   Proposal  | 
+| 2             |  ✓           |    User Stories  | 
+| 3             |  ✓           | API Prototype   | 
+| 4             |  ✓          |  Finish Application & Document  | 
 
 # Team Assignment 1 - Proposal
 
@@ -36,7 +36,7 @@ and the back-end would be responsible for data correlation, storage, and retriev
 
 # Team Assignment 2 - User Stories
 
-Located on the repositories
+Our User Storeis can be found => 
 
 # Team Assignment 3 - API Prototype
 
