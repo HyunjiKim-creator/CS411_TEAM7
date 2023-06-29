@@ -1,10 +1,10 @@
 # CS411_TEAM7
 
-* Welcome to CS411 Team 7's Group Project
+* Welcome to CS411 Team 7's Group Project!
 
 # Project Timeline
 
-* Kindly refer to our timeline for the project, which can be found at:
+* Refer to our timeline for the project, which can be found at:
   [https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Timeline.md](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Timeline.md).
 
 # Team Progress
