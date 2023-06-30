@@ -1,6 +1,7 @@
-# CS411_TEAM7
+# CS411_TEAM7 : TravelWise Application
 
 * Welcome to CS411 Team 7's Group Project!
+* Our project/application title is "TravelWise"
 
 # Project Timeline
 
