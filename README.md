@@ -6,7 +6,7 @@
 # Project Timeline
 
 * Refer to our timeline for the project, which can be found at:
-  [https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Timeline.md](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Timeline.md).
+  [Timeline](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Timeline.md).
 
 # Team Progress
 
@@ -42,7 +42,7 @@ and the back-end would be responsible for data correlation, storage, and retriev
 
 # Team Assignment 2 - User Stories
 
-Our User Storeis can be found at [https://github.com/HyunjiKim-creator/CS411_TEAM7/tree/main/Assignments/User%20Stories](https://github.com/HyunjiKim-creator/CS411_TEAM7/tree/main/Assignments/User%20Stories.)
+Our User Storeis can be found at [User Stories](https://github.com/HyunjiKim-creator/CS411_TEAM7/tree/main/Assignments/User%20Stories.)
 
 # Team Assignment 3 - API Prototype
 
@@ -56,4 +56,4 @@ https://github.com/HyunjiKim-creator/CS411_TEAM7/assets/91108091/4a3b73b7-ebce-4
 
 *The document provides tutorials on how to access and utilize the application.
 
-*The necssary code files for the application can be accessed on our repository.
+*The necssary code files for the application can be accessed on our repository at the following link: [Repository](https://github.com/HyunjiKim-creator/CS411_TEAM7/tree/main/Completed%20Oauth).
