@@ -42,7 +42,7 @@ and the back-end would be responsible for data correlation, storage, and retriev
 
 # Team Assignment 2 - User Stories
 
-Our User Storeis can be found at [User Stories](https://github.com/HyunjiKim-creator/CS411_TEAM7/tree/main/Assignments/User%20Stories.)
+Our user stories are available at the following link: [User Stories](https://github.com/HyunjiKim-creator/CS411_TEAM7/tree/main/Assignments/User%20Stories).
 
 # Team Assignment 3 - API Prototype
 
