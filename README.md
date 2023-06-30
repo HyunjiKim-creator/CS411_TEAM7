@@ -46,7 +46,7 @@ Our user stories are available at the following link: [User Stories](https://git
 
 # Team Assignment 3 - API Prototype
 
-Demo Video ⬇️
+**Demo Video** ⬇️
 
 https://github.com/HyunjiKim-creator/CS411_TEAM7/assets/91108091/4a3b73b7-ebce-4ae2-a6f4-905c17ca2831
 
@@ -59,7 +59,7 @@ https://github.com/HyunjiKim-creator/CS411_TEAM7/assets/91108091/4a3b73b7-ebce-4
 *Please find the link below to access the finalized web application: [Finalized Web Application](https://github.com/HyunjiKim-creator/CS411_TEAM7/tree/main/Web%20Application)
 
 
-Thumbnail ⬇️
+**Thumbnail** ⬇️
 
 ![Alt Text](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Images/thumbnails.png)
 
