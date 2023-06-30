@@ -52,7 +52,7 @@ https://github.com/HyunjiKim-creator/CS411_TEAM7/assets/91108091/4a3b73b7-ebce-4
 
 # Team Assignment 4 - Finish Application & Document
 
-*Please find our final document at the following link: [Final Document](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/docs/Assignment%204_%20Final%20Document.docx). 
+*Please find our final document at the following link: [Final Document](https://github.com/HyunjiKim-creator/CS411_TEAM7/tree/main/Web%20Application)
 
 *The document provides tutorials on how to access and utilize the application.
 
