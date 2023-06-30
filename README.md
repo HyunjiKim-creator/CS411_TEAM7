@@ -1,7 +1,7 @@
-# CS411_TEAM7 : TravelWise Application
+# CS411_TEAM7 : TravelWise. Application
 
 * Welcome to CS411 Team 7's Group Project!
-* Our project/application title is "TravelWise"
+* Our project/application title is "TravelWise. Application"
 ![Alt Text](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Images/logo.png)
 
 # Project Timeline
