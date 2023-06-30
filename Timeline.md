@@ -37,7 +37,7 @@ We chose Postman because it allows developers to testing and develop the APIs ef
 * ### Front - end Framework
 
 **HTML**
-We can add various, convenient UI features with html. We can make our application look better and make it more accessible for our users.
+We can add various, convenient UI features with html. We can design and make our application look better and make it more accessible for our users.
   
 * ### Data Format
 
@@ -59,3 +59,6 @@ Ajax (Asynchronous JavaScript and XML): We used Ajax for fetching data from the 
 **3) Geocoding** which converts addresses like a street address into geographic coordinates.
 
 ## Assignment 4 _ Finish Application & Document
+Our team meets in person every day to collaborate and work together towards the finalization of the application and UI/UX designs. With face-to-face interaction and open communication, we were able to refine varuous aspect of the project, ensuring its optimal quality and functionality.We acknowledge that there are still deficiencies in the project that require attention and improvement. Howver, please consider that our team has made concerted efforts to address these issues and find suitable solutions.For a detailed understanding of our work process and the comprehensive outcomes, we encourage you to explore the details provided in the document accessible through the following link: [Final Document](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/docs/Assignment%204_%20Final%20Document.docx). Thank you.
+
+
