@@ -18,6 +18,7 @@
 *After restarting, open terminal and type "node -v" and "npm -v", if the version number displays the installation is sucessful.
 *Then type "npm install express-session" in the command line.
 *Run "npm install express google-auth-library". 
+*Run "npm install express passport passport-google-oauth20 dotenv".
 *Run "node server.js" This starts the machine as a local server looking at port localhost:3000
 *Then type in your browser "http://localhost:3000".
 *Then you should see the web application running
