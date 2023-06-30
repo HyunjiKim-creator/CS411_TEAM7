@@ -15,24 +15,3 @@ h1 {
     color: var(--primary-color);
 }
 
-/* Logo */
-.logo {
-    width: 100px;
-    height: auto;
-}
-
-/* Buttons */
-.button {
-    padding: 10px 20px;
-    background-color: var(--primary-color);
-    color: orangered;
-    border: none;
-    border-radius: 4px;
-}
-
-/* Forms */
-.input-field {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
