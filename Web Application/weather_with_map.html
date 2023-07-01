@@ -218,7 +218,7 @@
                         var tempF = tempC * 9 / 5 + 32;
                         var recommendation = getRecommendation(tempC);
                         var windSpeed = data.wind.speed;
-                        var date = new Date(data.dt * 1000).toLocaleDateString();
+                        var date = new Date(dateAhead.getTime() + (24 * 60 * 60 * 1000)).toLocaleDateString();
 
                         $("#weather").text(`Date: ${date} | Temperature: ${tempC.toFixed(2)}°C / ${tempF.toFixed(2)}°F | Wind Speed: ${windSpeed.toFixed(2)} m/s | ${recommendation}`);
 
