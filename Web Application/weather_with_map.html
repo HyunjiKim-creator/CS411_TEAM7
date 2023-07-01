@@ -106,8 +106,8 @@
             if (status == google.maps.places.PlacesServiceStatus.OK) {
                 for (var i = 0; i < results.length; i++) {
                     var place = results[i];
-                    createMarker(results[i]);
-                    addToList(results[i]);
+                    createMarker(place);
+                    addToList(place);
                 }
             }
         }
@@ -118,30 +118,35 @@
                 position: place.geometry.location
             });
 
+            google.maps.event.addListener(marker, 'click', function () {
+                infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+                    'Place ID: ' + place.place_id + '<br>' +
+                    place.vicinity + '</div>');
+                infowindow.open(map, this);
+            });
+
             markers.push(marker);
         }
 
         function addToList(place) {
             service.getDetails({ placeId: place.place_id }, function (result, status) {
-                if (status != google.maps.places.PlacesServiceStatus.OK) {
-                    alert(status);
-                    return;
-                }
-                var ul = document.getElementById("places");
-                var li = document.createElement("li");
-                var text = document.createTextNode(
-                    result.name + ' - Rating: ' + (result.rating || 'No rating') + ' - Address: ' + (result.vicinity || 'No address'));
-                li.appendChild(text);
+                if (status == google.maps.places.PlacesServiceStatus.OK) {
+                    var ul = document.getElementById("places");
+                    var li = document.createElement("li");
+                    var text = document.createTextNode(
+                        result.name + ' - Rating: ' + (result.rating || 'No rating') + ' - Address: ' + (result.vicinity || 'No address'));
+                    li.appendChild(text);
 
-                if (result.website) {
-                    var website = document.createElement("a");
-                    website.href = result.website;
-                    website.textContent = " Website";
-                    li.appendChild(website);
-                }
+                    if (result.website) {
+                        var website = document.createElement("a");
+                        website.href = result.website;
+                        website.textContent = " Website";
+                        li.appendChild(website);
+                    }
 
-                li.onclick = function () { displayPlaceDetails(result); }; // Adding an onclick event to the list item
-                ul.appendChild(li);
+                    li.onclick = function () { displayPlaceDetails(result); }; // Adding an onclick event to the list item
+                    ul.appendChild(li);
+                }
             });
         }
 
@@ -205,43 +210,26 @@
 
                 $.ajax({
                     method: "GET",
-                    url: `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=${limit}&appid=${apiKey}`,
+                    url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`,
                 }).done(function (data) {
-                    if (data.length > 0) {
-                        var lat = data[0].lat;
-                        var lon = data[0].lon;
+                    if (data.weather && data.weather.length > 0) {
+                        var tempK = data.main.temp;
+                        var tempC = tempK - 273.15;
+                        var tempF = tempC * 9 / 5 + 32;
+                        var recommendation = getRecommendation(tempC);
+                        var windSpeed = data.wind.speed;
+                        var date = new Date(data.dt * 1000).toLocaleDateString();
 
-                        $.ajax({
-                            method: "GET",
-                            url: `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&exclude=current,minutely,hourly,alerts&appid=${apiKey}`,
-                        }).done(function (weatherData) {
-                            var forecastData = weatherData.daily;
+                        $("#weather").text(`Date: ${date} | Temperature: ${tempC.toFixed(2)}°C / ${tempF.toFixed(2)}°F | Wind Speed: ${windSpeed.toFixed(2)} m/s | ${recommendation}`);
 
-                            if (forecastData.length > diffDays) {
-                                var tempK = forecastData[diffDays - 1].temp.day;
-                                var tempC = tempK - 273.15;
-                                var tempF = tempC * 9 / 5 + 32;
-                                var recommendation = getRecommendation(tempC);
-                                var weatherCode = forecastData[diffDays - 1].weather[0].id;
-                                var isRaining = (weatherCode >= 500 && weatherCode < 600);
-                                var isSnowing = (weatherCode >= 600 && weatherCode < 700);
-
-                                if (isRaining || isSnowing) {
-                                    $("#weather").text(`The temperature on ${dateAhead.toLocaleDateString()} will be ${tempC.toFixed(2)}°C or ${tempF.toFixed(2)}°F. ${recommendation}`);
-                                } else {
-                                    $("#weather").text(`The temperature on ${dateAhead.toLocaleDateString()} will be ${tempC.toFixed(2)}°C or ${tempF.toFixed(2)}°F.`);
-                                }
-
-                                resolve();
-                            } else {
-                                $("#weather").text("Forecast data for that date is not available");
-                                resolve();
-                            }
-                        });
+                        resolve();
                     } else {
-                        $("#output").text("Invalid city name");
+                        $("#weather").text("Weather data not available");
                         resolve();
                     }
+                }).fail(function () {
+                    $("#weather").text("Failed to fetch weather data");
+                    resolve();
                 });
             });
         }
