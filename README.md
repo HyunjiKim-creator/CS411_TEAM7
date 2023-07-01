@@ -64,7 +64,7 @@ https://github.com/HyunjiKim-creator/CS411_TEAM7/assets/91108091/4a3b73b7-ebce-4
 ![Alt Text](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Images/thumbnails.png)
 
 **Demo Video** ⬇️
-[![Alt Text](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Images/thumbnails.png)](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Web%20Application/demo1.mp4)
+[![Alt Text](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Images/thumbnails.png)](https://github.com/HyunjiKim-creator/CS411_TEAM7/blob/main/Web%20Application/Final%20Demo.mp4)
 
 
 
